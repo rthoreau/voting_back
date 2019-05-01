@@ -4,7 +4,7 @@ session_start();
 
 require_once 'db_access.php';
 require_once 'db.php';
-require_once 'card.class.php';
+require_once 'vote.class.php';
 
 function local() {
   return strrpos($_SERVER['HTTP_HOST'], 'localhost') !== false;
